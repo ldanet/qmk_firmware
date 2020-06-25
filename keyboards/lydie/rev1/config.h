@@ -22,9 +22,9 @@
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x9692
 #define DEVICE_VER      0x0101
-#define MANUFACTURER    Kumao Kobo
-#define PRODUCT         Pico Keyboard
-#define DESCRIPTION     Split row staggered 5x7 keyboard (using kailh mid-height)
+#define MANUFACTURER    Lydie Danet
+#define PRODUCT         Custom ergo Keyboard
+#define DESCRIPTION     Split ergonomic keyboard designed by Lydie
 
 /* key matrix size */
 // Rows are doubled-up
