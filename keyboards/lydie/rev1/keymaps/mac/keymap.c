@@ -37,15 +37,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                      ┌────────┬────────┬────────┬────────┬────────┬────────┐
      KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,                       KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,KC_NO   ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐    ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO   ,STN_S1  ,STN_N3  ,STN_A   ,STN_N5  ,KC_NO   ,KC_NO   ,     QWERTY  ,KC_NO   ,STN_RR  ,STN_U   ,STN_GR  ,STN_TR  ,KC_NO   ,
+     KC_NO   ,STN_N1  ,STN_N2  ,STN_N3  ,STN_N4  ,STN_N5  ,KC_ESC  ,     QWERTY  ,STN_N6  ,STN_N7  ,STN_N8  ,STN_N9  ,STN_NA  ,STN_NB  ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤    ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_NO   ,STN_S2  ,STN_TL  ,STN_PL  ,STN_HL  ,KC_NO   ,KC_NO   ,     KC_NO   ,KC_NO   ,STN_FR  ,STN_PR  ,STN_LR  ,STN_NB  ,KC_NO   ,
+     KC_NO   ,STN_S1  ,STN_TL  ,STN_PL  ,STN_HL  ,STN_ST1 ,KC_ENT  ,     KC_BSPC ,STN_ST3 ,STN_FR  ,STN_PR  ,STN_LR  ,STN_TR  ,STN_DR  ,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤    ├────────┼────────┼────────┼────────┼────────┼────────┬────────┤
-     KC_NO   ,STN_N4  ,STN_KL  ,STN_WL  ,STN_RL  ,KC_NO   ,KC_NO   ,     KC_NO   ,KC_NO   ,STN_N8  ,STN_N9  ,STN_NA  ,STN_BR  ,KC_NO   ,
+     KC_NO   ,STN_S2  ,STN_KL  ,STN_WL  ,STN_RL  ,STN_ST2 ,KC_TAB  ,     KC_DEL  ,STN_ST4 ,STN_RR  ,STN_BR  ,STN_GR  ,STN_SR  ,STN_ZR  ,
   //└────────┼────────┼────────┼────────┼────────┼────────┼────────┤    ├────────┼────────┼────────┴────────┼────────┼────────┼────────┘
-                                STN_N4  ,STN_N4  ,STN_O   ,STN_ST1 ,     STN_ST1 ,STN_E   ,STN_BR  ,STN_BR  ,
+                                KC_LCTL ,FN      ,STN_A   ,STN_O   ,     STN_E   ,STN_U   ,FN      ,KC_RCTL ,
   //                           └────────┼────────┼────────┼────────┤    ├────────┤────────┼────────┴────────┘
-                                         KC_NO   ,STN_ST2 ,STN_ST1 ,     STN_ST1 ,STN_NC   ,KC_NO
+                                         KC_NO   ,KC_LOPT ,KC_LCMD ,     KC_RCMD ,KC_LALT ,KC_NO
   //                                    └────────┴────────┴────────┘    └────────┴────────┴────────┘
   ),
   [_FN] = LAYOUT(
